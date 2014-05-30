@@ -1,3 +1,10 @@
+"""
+This is an example-param file, containing the configuration options of the project.
+
+Copy this file to params.py and modify it to your own needs. 
+celeryconfig.py will include that params-file to run.
+"""
+
 REDIS_PORT = 6379
 
 BROKER_URL = 'redis://localhost:%s/1' % REDIS_PORT
